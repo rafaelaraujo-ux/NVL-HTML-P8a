@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Elementos de bloque y de línea</title>
+	<style>
+		h2{
+			margin-top: 50px;
+		}
+		p, ul, pre{
+			background-color:#dadada;
+		}
+		.linea{
+			background-color: #32ff6a;
+			display: inline-block;
+		}
+		span, strong, em, a{
+			background-color: #32ff6a;
+		}
+		
+		.bloque{
+			background-color:#dadada;
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Algunos ejemplos de elementos de bloque y de línea</h1>
+	
+	<h2>Elementos de bloque</h2>
+	<p>Los párrafos forman elementos de bloque.</p>
+	<p>Las listas también forman bloques:</p>
+	<ul><li>Ejemplo 1</li><li>Ejemplo 2</li><li>Ejemplo 3</li></ul>
+	<pre>También la etiqueta pre forma un elemento de bloque.</pre>
+	<h2>Elementos de línea</h2>
+	<p>Este párrafo tiene la etiqueta <span>span</span>. Y <span>span</span> es un elemento de línea.</p>
+	<p>Este párrafo tiene la etiqueta <strong>strong</strong>. Y <strong>strong</strong> es un elemento de línea.</p>
+	<p>Este párrafo tiene la etiqueta <em>em</em>. Y <em>em</em> es un elemento de línea.</p>
+		<a href="#">Inicio</a>
+		<a href="#">Nosotros</a>
+		<a href="#">Contacto</a>
+	<h2>Cambio de bloque a linea</h2>
+		<p class="linea">Lorem ipsum dolor sit amet.</p>
+		<p class="linea">Lorem ipsum dolor sit amet.</p>
+		<p class="linea">Lorem ipsum dolor sit amet.</p>
+	<h2>Cambio de linea a bloque</h2>
+		<a class="bloque" href="#">Inicio</a>
+		<a class="bloque" href="#">Nosotros</a>
+		<a class="bloque" href="#">Contacto</a>
+
+</body>
+</html>
